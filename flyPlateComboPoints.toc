@@ -1,6 +1,6 @@
 ## Interface: 30400
 ## Title: flyPlateComboPoints
-## Version: 3.4.0
+## Version: 1.0.1
 ## Notes: Shows combo points on nameplates
 ## Author: Frekzek
 ## SavedVariables: flyPlateComboPointsDB

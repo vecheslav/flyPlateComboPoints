@@ -41,8 +41,8 @@ local function CreatePoint(frame, i)
 	point.texture:SetTexture("Interface\\Addons\\flyPlateComboPoints\\textures\\point.tga")
 	point.texture:SetVertexColor(0.3,0.3,0.3)
 
-	point:SetWidth(10)
-	point:SetHeight(10)
+	point:SetWidth(12)
+	point:SetHeight(12)
 	point:SetAlpha(1)
 
 	point:ClearAllPoints()
@@ -94,8 +94,8 @@ local function UpdateUnitComboPoints(nameplateID)
 	end
 
 
-	frame.fPCPFrame:SetWidth(50)
-	frame.fPCPFrame:SetHeight(10)
+	frame.fPCPFrame:SetWidth(60)
+	frame.fPCPFrame:SetHeight(12)
 	frame.fPCPFrame:SetFrameStrata("HIGH")
 
 	for i = 1, 5 do
